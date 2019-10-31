@@ -65,10 +65,20 @@
 <p>在編譯完成solvespace後要開啟執行檔時跳出缺少libwinpthread.dll檔的畫面，此時到</p>
 <p>Y:\msys64\mingw64\bin 找到<span>libwinpthread.dll並複製到</span></p>
 <p><span>solvespace\build\bin即可</span></p>
-<h1><span>Week6</span></h1>
+<h1>Week6</h1>
 <p><span>參數化零組件繪製</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/_BJjLsnisSg" width="560"></iframe></span></p>
 <p><span>V-rep模型控制</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/70gsbKTgps8" width="560"></iframe></span></p>
 <p><span>新增啟動與停止按鈕</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/fXUSHAUsC_E" width="560"></iframe></span></p>
+<p><span>參考:</span></p>
+<p><span><a href="http://www.coppeliarobotics.com/helpFiles/en/regularApi/simStartSimulation.htm">http://www.coppeliarobotics.com/helpFiles/en/regularApi/simStartSimulation.htm</a></span></p>
+<p><span>vrep.simxStartSimulation(self.clientID, vrep.simx_opmode_oneshot)</span></p>
+<p><span><a href="http://www.coppeliarobotics.com/helpFiles/en/regularApi/simStopSimulation.htm">http://www.coppeliarobotics.com/helpFiles/en/regularApi/simStopSimulation.htm</a></span></p>
+<p><span>vrep.simxStopSimulation(self.clientID, vrep.simx_opmode_oneshot)</span></p>
+<h1>Week7</h1>
+<p>在About內容加入"This is compiled by 407xxxxx"</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5xt89SPETms" width="560"></iframe></p>
+<p>因為編譯完成後的檔案在開啟時皆是讀取obj檔，所以即使更改了solvespace.cpp檔的內容在About裡的內容也不會有改變。</p>
+<p>如果更改了內容要顯示在solvespace的About中必須重新編譯，但因全部重新編譯需花較長時間，即不須刪除資料夾的情況下重新編譯即可，這樣在編譯的過程中就不需要重新編譯全部的檔案，只會編譯和有被更改的內容相關的檔案，而編譯出來的obj檔會蓋過原先的obj檔，若順利完成後再次開啟即會有剛剛該改的內容</p>
