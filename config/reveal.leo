@@ -25,7 +25,10 @@
 <v t="leo.20191107154301.2"><vh>Solvespace編譯</vh></v>
 </v>
 <v t="leo.20191107161938.1"><vh>V-rep</vh>
-<v t="leo.20191107161938.2"><vh>Solvespace編譯</vh></v>
+<v t="leo.20191107161938.2"><vh>v-rep</vh></v>
+</v>
+<v t="leo.20191107194825.1"><vh>V-rep</vh>
+<v t="leo.20191107194825.2"><vh>v-rep</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -161,7 +164,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+電腦輔助設計實習_40723145
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -337,10 +340,12 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191107154301.2">
 
-## [Solvespace編譯](https://s40723145.github.io/cad2019/content/%E7%B7%A8%E8%AD%AF%E6%AD%A5%E9%A9%9F.html)
+### [Solvespace編譯](https://s40723145.github.io/cad2019/content/%E7%B7%A8%E8%AD%AF%E6%AD%A5%E9%A9%9F.html)
 
 
-&lt;iframe src="https://youtu.be/zb7QzWKSt3g" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe src="https://player.vimeo.com/video/371572488" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 <t tx="leo.20191107161938.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -353,6 +358,34 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191107161938.2">
 
 ## [V-rep](https://s40723145.github.io/cad2019/content/Week6.html)
+
+* [參數化零件繪製](https://www.youtube.com/watch?v=_BJjLsnisSg)
+
+* [V-rep模型控制](https://www.youtube.com/watch?v=70gsbKTgps8)
+
+* [新增啟動與停止按鈕](https://www.youtube.com/watch?v=fXUSHAUsC_E)
+
+
+</t>
+<t tx="leo.20191107194825.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107194825.2">
+
+## [Week7](https://s40723145.github.io/cad2019/content/Week7.html)
+
+* [加入"This is compiled by 407xxxxx"](https://www.youtube.com/watch?v=5xt89SPETms)
+
+* [繪圖認證_ex15](https://www.youtube.com/watch?v=EyeHK5kWwlo)
+
+* [繪圖認證_ex16](https://www.youtube.com/watch?v=yzimdl6ouTQ)
+
 
 </t>
 </tnodes>
