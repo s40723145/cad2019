@@ -90,4 +90,21 @@
 <p>16</p>
 <p><iframe height="314" src="/downloads/solvespace/ex16.html" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/yzimdl6ouTQ" width="560"></iframe></p>
-<p></p>
+<h1>IPv6_SSH</h1>
+<p>因為github目前沒有支援IPv6的SSH key，所以必須利用putty來將由sh.exe所產生的OpenSSH轉換為可在IPv6環境下所使用。</p>
+<p>步驟:</p>
+<p>1.在命令列中輸入sh進入系統</p>
+<p>2.輸入ssh-keygen -t rsa -b 4096 -C "_______" 來產生鑰匙</p>
+<p>3.開啟puttygen將剛剛所產生的private key載入再點選Generate</p>
+<p>4.將剛剛所產生的鑰匙分別再儲存為新的private key和public key</p>
+<p>5.在start.bat中加入</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">REM for putty
+set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</pre>
+<p>並設置路徑讓開啟start.bat時能夠連結plink.exe</p>
+<p>6.將.git/config中的URL改為SSH所用</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">url= git@github.com:(username)/(repository).git</pre>
+<p>7.開啟putty.exe將(1)session和hostname設定為github.com</p>
+<p>(2)將要用的proxy hostname設定為目前所用的IPv6 proxy</p>
+<p>(3)至SSH的Auth將剛剛所轉好的private key載入</p>
+<p>8.將OpenSSH格式的public key內容複製到Setting SSH</p>
