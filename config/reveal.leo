@@ -27,8 +27,11 @@
 <v t="leo.20191107161938.1"><vh>V-rep</vh>
 <v t="leo.20191107161938.2"><vh>v-rep</vh></v>
 </v>
-<v t="leo.20191107194825.1"><vh>V-rep</vh>
+<v t="leo.20191107194825.1"><vh>Week7</vh>
 <v t="leo.20191107194825.2"><vh>v-rep</vh></v>
+</v>
+<v t="leo.20191205231747.1"><vh>Week12</vh>
+<v t="leo.20191205231747.2"><vh>Webots</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -385,6 +388,29 @@ vertical: body pane on the botton</t>
 * [繪圖認證_ex15](https://www.youtube.com/watch?v=EyeHK5kWwlo)
 
 * [繪圖認證_ex16](https://www.youtube.com/watch?v=yzimdl6ouTQ)
+
+
+</t>
+<t tx="leo.20191205231747.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191205231747.2">
+
+## Week12
+
+* [Webots_tutorial_1](https://s40723145.github.io/cad2019/content/tutorial.html)
+
+參考[Webots User Guide](https://cyberbotics.com/doc/guide/tutorial-1-your-first-simulation-in-webots) 練習建立一個專案
+
+並利用內建的模型來做參數修改及模擬
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qqo86Bsxllg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 </t>
