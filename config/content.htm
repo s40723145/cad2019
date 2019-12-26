@@ -17,7 +17,25 @@
 <h2>Batch Command</h2>
 <p>利用Batch Command可以將在命令列中切換目錄和啟動某特定檔案的指令集合在一批次檔中。建立完成後就可以在任一位置中輸入設定的批次檔名稱後就能自動啟用批次檔中設定的檔案。</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Ij6s5jqzppc" width="560"></iframe></p>
-<h1>Solvespace</h1>
+<h2>IPv6_SSH</h2>
+<p>因為github目前沒有支援IPv6的SSH key，所以必須利用putty來將由sh.exe所產生的OpenSSH轉換為可在IPv6環境下所使用。</p>
+<p>步驟:</p>
+<p>1.在命令列中輸入sh進入系統</p>
+<p>2.輸入ssh-keygen -t rsa -b 4096 -C "_______" 來產生鑰匙</p>
+<p>3.開啟puttygen將剛剛所產生的private key載入並將再點選Save private key</p>
+<p>4.在start.bat中加入</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">REM for putty
+set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</pre>
+<p>並設置路徑讓開啟start.bat時能夠連結plink.exe</p>
+<p>5.將.git/config中的URL改為SSH所用</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">url= git@github.com:(username)/(repository).git</pre>
+<p>6.開啟putty.exe將(1)session和hostname設定為github.com</p>
+<p>(2)將要用的proxy hostname設定為目前所用的IPv6 proxy</p>
+<p>並將Proxy type改為HTTP</p>
+<p><img alt="" height="438" src="/images/putty_proxy_setting.PNG" width="444"/></p>
+<p>(3)至SSH的Auth將剛剛所轉好的private key載入</p>
+<p>7.將OpenSSH格式的public key內容複製到Setting SSH</p><h1>Solvespace</h1>
 <h2>編譯步驟</h2>
 <p><span>先將 Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
 <p><span>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace</span></p>
@@ -76,9 +94,12 @@
 <p></p>
 <h1>Webots</h1>
 <h2>tutorial</h2>
-<p>tutorial_1_my_first_simulation</p>
+<p><strong>tutorial_1 : my_first_simulation</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/qqo86Bsxllg" width="560"></iframe></p>
-<p></p>
+<p><strong>tutorial_2 : Modification_of_the_Environment</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/BaUl_kdEpQU" width="560"></iframe></p>
+<p><strong>tutorial_3 : Appearance</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/VZO-iCkbOR0" width="560"></iframe></p>
 <h1>V-rep</h1>
 <h2>BubbleRob tutorial</h2>
 <p>Part1</p>
@@ -128,22 +149,4 @@
 <p><iframe height="314" src="/downloads/solvespace/ex16.html" width="560"></iframe></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/yzimdl6ouTQ" width="560"></iframe></p>
 <h2>Week15</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Yoi-Bgj4TcU" width="560"></iframe></p><h1>IPv6_SSH</h1>
-<p>因為github目前沒有支援IPv6的SSH key，所以必須利用putty來將由sh.exe所產生的OpenSSH轉換為可在IPv6環境下所使用。</p>
-<p>步驟:</p>
-<p>1.在命令列中輸入sh進入系統</p>
-<p>2.輸入ssh-keygen -t rsa -b 4096 -C "_______" 來產生鑰匙</p>
-<p>3.開啟puttygen將剛剛所產生的private key載入並將再點選Save private key</p>
-<p>4.在start.bat中加入</p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">REM for putty
-set GIT_HOME=%Disk%:\portablegit\bin\
-set GIT_SSH=%Disk%:\putty\plink.exe</pre>
-<p>並設置路徑讓開啟start.bat時能夠連結plink.exe</p>
-<p>5.將.git/config中的URL改為SSH所用</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">url= git@github.com:(username)/(repository).git</pre>
-<p>6.開啟putty.exe將(1)session和hostname設定為github.com</p>
-<p>(2)將要用的proxy hostname設定為目前所用的IPv6 proxy</p>
-<p>並將Proxy type改為HTTP</p>
-<p><img alt="" height="438" src="/images/putty_proxy_setting.PNG" width="444"/></p>
-<p>(3)至SSH的Auth將剛剛所轉好的private key載入</p>
-<p>7.將OpenSSH格式的public key內容複製到Setting SSH</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Yoi-Bgj4TcU" width="560"></iframe></p>
