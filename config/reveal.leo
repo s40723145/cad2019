@@ -475,7 +475,7 @@ vertical: body pane on the botton</t>
 ### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
 
 
-&lt;iframe width="1000" height="500" src="/downloads/solvespace/assembly_r1.html"&gt;&lt;/iframe&gt;
+&lt;iframe width="900" height="500" src="../../downloads/solvespace/assembly_r1.html"&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20200102190344.1">&lt;section data-markdown&gt;
