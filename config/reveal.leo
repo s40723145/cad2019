@@ -36,6 +36,15 @@
 <v t="leo.20191212225228.1"><vh>Week13</vh>
 <v t="leo.20191212225228.2"><vh>w13 content</vh></v>
 </v>
+<v t="leo.20200102185347.1"><vh>Week15</vh>
+<v t="leo.20200102185347.2"><vh>W15 task</vh></v>
+</v>
+<v t="leo.20200102185650.1"><vh>Week16</vh>
+<v t="leo.20200102185650.2"><vh>W16 task</vh></v>
+</v>
+<v t="leo.20200102190344.1"><vh>Week16-2</vh>
+<v t="leo.20200102190344.2"><vh>W16 task</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -436,6 +445,54 @@ vertical: body pane on the botton</t>
 
 
 * [整理NX12 Ch7教材](https://s40723145.github.io/cad2019ag2/content/7%E7%AB%A0.html)
+</t>
+<t tx="leo.20200102185347.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200102185347.2">
+
+## [學員個人學習成果回報考試](https://s40723145.github.io/cad2019/content/Week15.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Yoi-Bgj4TcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200102185650.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200102185650.2">
+
+### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+
+
+&lt;iframe width="1000" height="500" src="/downloads/solvespace/assembly_r1.html"&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200102190344.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200102190344.2">
+
+### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m-8569qiqF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 </t>
 </tnodes>
 </leo_file>
