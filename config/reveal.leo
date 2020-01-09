@@ -45,6 +45,9 @@
 <v t="leo.20200102190344.1"><vh>Week16-2</vh>
 <v t="leo.20200102190344.2"><vh>W16 task</vh></v>
 </v>
+<v t="leo.20200109195407.1"><vh>W17</vh>
+<v t="leo.20200109195407.2"><vh>W17</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -457,7 +460,8 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200102185347.2">
 
-## [學員個人學習成果回報考試](https://s40723145.github.io/cad2019/content/Week15.html)
+## Week15
+* [學員個人學習成果回報考試](https://s40723145.github.io/cad2019/content/Week15.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Yoi-Bgj4TcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
@@ -472,11 +476,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200102185650.2">
 
-### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+## Week16
+ * [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
 
 
-&lt;iframe width="900" height="500" src="../../downloads/solvespace/assembly_r1.html"&gt;&lt;/iframe&gt;
-
+&lt;iframe src="../../downloads/solvespace/assembly_r1.html" width="900" height="500"&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200102190344.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -489,9 +493,26 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200102190344.2">
 
-### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+## Week16
+ * [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m-8569qiqF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200109195407.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109195407.2">
+
+### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+
+&lt;img src="../images/6.PNG" width="600px"&gt;
 
 </t>
 </tnodes>
