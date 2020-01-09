@@ -46,7 +46,7 @@
 <v t="leo.20200102190344.2"><vh>W16 task</vh></v>
 </v>
 <v t="leo.20200109195407.1"><vh>W17</vh>
-<v t="leo.20200109195407.2"><vh>W17</vh></v>
+<v t="leo.20200109195407.2"><vh>W17task</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -510,10 +510,10 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200109195407.2">
 
-### [越野車零組件設計繪圖查驗](https://s40723145.github.io/cad2019/content/Week16.html)
+## week17
+* [越野車零組件設計繪圖考試](https://s40723145.github.io/cad2019/content/Week17.html)
 
-&lt;img src="../images/6.PNG" width="600px"&gt;
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XngiD9V3-s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
